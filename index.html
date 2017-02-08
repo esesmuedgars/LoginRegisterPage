@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<img class="bg" src="image/background.png" alt="background_image">
+    <div class="main"> <!--Main div start-->
+        <div id="container1"> <!--1st container div start-->
+        <h1>Don't have an account?</h1>
+        <hr id="separatorLine1">
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> elusmod tempor incididunt ut labore et<br> dolore magna aliqua.</p>
+        <button type="button" name="signup" id="button1" onclick="signUpClicked()">Sign Up</button>
+        </div> <!--1st container div end-->
+        <div id="container2"> <!--2nd container div start-->
+        <h1>Have an account?</h1>
+        <hr id="separatorLine2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button type="button" name="login" id="button2" onclick="loginClicked()">Login</button>
+        </div> <!--2nd container div end-->
+        <div id="container3"> <!--3rd container div start-->
+            <h3>Login<img class="magebitLogo" src="image/logo.png" alt="logo"></h3>
+            <hr id="separatorLine3">
+            <form method="post" action="process.php">
+            <p>
+                <label for="email">Email<span style="color: #F55675;">*</span></label>
+                <img class="logos" src="image/ic_mail.png" alt="">
+                <img class="logosA" src="image/ic_mail_a.png" alt="">
+                <input class="inputField" type="email" name="email" required>
+            </p>
+            <p>
+                <label for="password">Password<span style="color: #F55675;">*</span></label>
+                <img class="logos" src="image/ic_lock.png" alt="">
+                <img class="logosA" src="image/ic_lock_a.png" alt="">
+                <input class="inputField" type="password" name="password"  required>
+            </p>
+            <p>
+                <input class="submit" type="submit" name="submit" value="Login">
+                <a href="#" id="forgotPassword">Forgot?</a>
+            </p>
+            </form>
+            <div id="rect1"></div>
+            <div id="triangle1"></div>
+            <div id="triangle2"></div>
+        </div> <!--3rd container div end-->
+        <div id="container4"> <!--4th container div start-->
+            <h3>Sign Up<img class="magebitLogo" src="image/logo.png" alt="logo"></h3>
+            <hr id="separatorLine4">
+            <form method="post" action="process.php">
+                <p>
+                    <label for="name">Name<span style="color: #F55675;">*</span></label>
+                    <img class="logos" src="image/ic_user.png" alt="">
+                    <img class="logosA" style="margin: 3px -14px 0 0" src="image/ic_user_a.png" alt="">
+                    <input class="inputField" type="text" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email<span style="color: #F55675;">*</span></label>
+                    <img class="logos" src="image/ic_mail.png" alt="">
+                    <img class="logosA" src="image/ic_mail_a.png" alt="">
+                    <input class="inputField" type="email" name="email" required>
+                </p>
+                <p>
+                    <label for="password">Password<span style="color: #F55675;">*</span></label>
+                    <img class="logos" src="image/ic_lock.png" alt="">
+                    <img class="logosA" src="image/ic_lock_a.png" alt="">
+                    <input class="inputField" type="password" name="password" required>
+                </p>
+                <p>
+                    <input class="submit" type="submit" name="submit" value="Sign Up">
+                </p>
+
+            </form>
+            <div id="rect2"></div>
+            <div id="triangle3"></div>
+            <div id="triangle4"></div>
+        </div> <!--4th div container end-->
+        <footer class="footer">
+        <p>All rights reserved "Magebit" 2016.</p>
+        </footer>
+    </div> <!--Main div end-->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

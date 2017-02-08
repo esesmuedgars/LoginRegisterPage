@@ -1,0 +1,445 @@
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#container1 {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    div#container1 h1, div#container1 p, div#container1 #separatorLine1, div#container1 #button1 {
+        margin-left: 80px;
+    }
+    div#container2 {
+        width: 100%;
+        left: 0;
+        top: 420px;
+    }
+    div#container2 h1, div#container2 p, div#container2 #separatorLine2, div#container2 #button2 {
+        margin-left: 80px;
+    }
+    div#container3 {
+        width: 100%;
+        top: 0;
+        left 0;
+    }
+    div#container3 #rect1, div#container3 #triangle1, div#container3 #triangle2 {
+        visibility: hidden;
+    }
+    div#container4 {
+        width: 100%;
+        top: 0;
+        left 0;
+    }
+    div#container4 #rect2, div#container4 #triangle3, div#container4 #triangle4 {
+        visibility: hidden;
+    }
+    footer.footer {
+        left: 120px;
+        width: 100%;
+        top: 840px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div#container1 {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    div#container1 h1, div#container1 p, div#container1 #separatorLine1, div#container1 #button1 {
+        margin-left: 40px;
+    }
+    div#container2 {
+        width: 100%;
+        left: 0;
+        top: 420px;
+    }
+    div#container2 h1, div#container2 p, div#container2 #separatorLine2, div#container2 #button2 {
+        margin-left: 40px;
+    }
+    div#container3 {
+        width: 100%;
+        top: 0;
+        left 0;
+    }
+    div#container3 #rect1, div#container3 #triangle1, div#container3 #triangle2 {
+        visibility: hidden;
+    }
+    div#container4 {
+        width: 100%;
+        top: 0;
+        left 0;
+    }
+    div#container4 #rect2, div#container4 #triangle3, div#container4 #triangle4 {
+        visibility: hidden;
+    }
+    footer.footer {
+        left: 80px;
+        width: 100%;
+        top: 840px;
+    }
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url('../fonts/SourceSansPro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url('../fonts/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro-Light";
+    src: url('../fonts/SourceSansPro-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**** 1ST CONTAINER ****/
+
+#container1 {
+    background: rgba(15, 26, 47, 0.902);
+    filter: alpha(opacity=90.2);
+    position: absolute;
+    left: 220px;
+    top: 190px;
+    width: 460px;
+    height: 420px;
+    z-index: 5;
+}
+
+#container1 h1 {
+    font-size: 28px;
+    font-family: "SourceSansPro-Light";
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    width: 275px;
+    height: auto;
+    margin: 65px 0 0 80px;
+}
+
+#container1 p {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.85;
+    width: 275px;
+    height: auto;
+    margin: 0 0 20px 80px;
+}
+
+#separatorLine1 {
+    margin: 27px 0 27px 80px;
+    border: rgb(73, 171, 254) 1px solid;
+    width: 40px;
+}
+
+#button1 {
+    border: rgb(73, 171, 254) 2px solid;
+    border-radius: 50px;
+    background-color: rgba(73, 171, 254, 0);
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    font-family: "SourceSansPro-Bold";
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    margin: 0 0 0 80px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+/**** 2ND CONTAINER ****/
+
+#container2 {
+    background: rgba(15, 26, 47, 0.902);
+    filter: alpha(opacity=90.2);
+    position: absolute;
+    left: 680px;
+    top: 190px;
+    width: 460px;
+    height: 420px;
+    z-index: 6;
+}
+
+#container2 h1 {
+    font-size: 28px;
+    font-family: "SourceSansPro-Light";
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    width: 275px;
+    height: auto;
+    margin: 95px 0 0 98px;
+}
+
+#container2 p {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.85;
+    width: 275px;
+    height: auto;
+    margin: 0 0 20px 98px;
+}
+
+#separatorLine2 {
+    margin: 27px 0 27px 98px;
+    border: rgb(73, 171, 254) 1px solid;
+    width: 40px;
+}
+
+#button2 {
+    border: rgb(73, 171, 254) 2px solid;
+    border-radius: 50px;
+    background-color: rgba(73, 171, 254, 0);
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    font-family: "SourceSansPro-Bold";
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    margin: 0 0 0 98px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+#button1:hover, #button2:hover {
+    background-color: rgb(73, 171, 254);
+}
+
+/**** 3RD CONTAINER ****/
+
+#container3 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 140px 0 rgba(50, 66, 91, 0.3);
+    position: absolute;
+    left: 660px;
+    top: 170px;
+    width: 460px;
+    height: 460px;
+    z-index: 7;
+}
+
+#container3 h3 {
+    font-size: 28px;
+    font-family: "SourceSansPro-Light";
+    font-weight: normal;
+    color: rgb(62, 73, 94);
+    margin: 85px 0 0 90px;
+    line-height: 1.25;
+}
+
+#separatorLine3 {
+    margin: 27px 0 31px 90px;
+    border: rgb(73, 171, 254) 1px solid;
+    width: 40px;
+}
+
+#container3 p {
+    margin: 24px 0 0 90px;
+}
+
+#container3 p label {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    font-weight: normal;
+    color: rgb(132, 149, 183);
+}
+
+#forgotPassword {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    font-weight: normal;
+    color: rgb(132, 149, 183);
+    text-align: right;
+    margin-left: 87px;
+}
+
+#rect1 {
+    background-color: rgb(32, 41, 58);
+    position: absolute;
+    margin: -362px 0 0 -10px;
+    width: 10px;
+    height: 420px;
+}
+
+#triangle1 {
+    margin: -382px 0 0 -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 10px;
+    border-color: transparent transparent rgb(137, 222, 255) transparent;
+    position: absolute;
+}
+
+#triangle2 {
+    margin: 58px 0 0 -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 10px;
+    border-color: rgb(137, 222, 255) transparent transparent transparent;
+    position: absolute;
+}
+
+
+/**** 4TH CONTAINER ****/
+
+#container4 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 142px 0 rgba(1, 1, 1, 0.2);
+    position: absolute;
+    left: 240px;
+    top: 170px;
+    width: 460px;
+    height: 460px;
+    z-index: 8;
+    visibility: hidden;
+}
+
+#container4 h3 {
+    font-size: 28px;
+    font-family: "SourceSansPro-Light";
+    font-weight: normal;
+    color: rgb(62, 73, 94);
+    margin: 50px 0 0 90px;
+    line-height: 1.25;
+}
+
+#separatorLine4 {
+    margin: 27px 0 31px 90px;
+    border: rgb(73, 171, 254) 1px solid;
+    width: 40px;
+}
+
+#container4 p {
+    margin: 24px 0 0 90px;
+}
+
+#container4 p label {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    font-weight: normal;
+    color: rgb(132, 149, 183);
+}
+
+#rect2 {
+    background-color: rgb(32, 41, 58);
+    position: absolute;
+    margin: -403px 0 0 -10px;
+    width: 10px;
+    height: 420px;
+}
+
+#triangle3 {
+    margin: -423px 0 0 -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 10px;
+    border-color: transparent transparent rgb(137, 222, 255) transparent;
+    position: absolute;
+}
+
+#triangle4 {
+    margin: 17px 0 0 -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 10px;
+    border-color: rgb(137, 222, 255) transparent transparent transparent;
+    position: absolute;
+}
+
+.inputField {
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    font-weight: normal;
+    color: rgb(62, 73, 94);
+    border: none;
+    border-bottom: rgb(203, 210, 223) 1px solid;
+    outline: none;
+    width: 280px;
+    padding-bottom: 10px;
+}
+
+.magebitLogo {
+    float: right;
+    margin: 4px 90px 0 0;
+}
+
+.logos {
+    float: right;
+    margin: 3px 90px 0 0;
+    opacity: 1;
+}
+
+.logosA {
+    float: right;
+    margin: 3px -16px 0 0;
+    opacity: 0;
+}
+
+.submit {
+    border: rgb(248, 154, 53) 2px solid;
+    border-radius: 50px;
+    background-color: rgb(248, 154, 53);
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    font-family: "SourceSansPro-Bold";
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.submit:hover {
+    border: rgb(248, 191, 53) 2px solid;
+    background-color: rgb(248, 191, 53);
+}
+
+.footer {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "SourceSansPro";
+    color: rgb(167, 179, 203);
+    font-weight: bold;
+    line-height: 2.692;
+    position: absolute;
+    left: 537.937px;
+    top: 727.502px;
+    z-index: 4;
+}
